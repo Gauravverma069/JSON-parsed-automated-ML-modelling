@@ -7,5 +7,9 @@ The Problem statement is based on problem devised from Hackathon at Imarticus Le
 
 ### Goal:
 Develop an ML model that predicts the Scores and Evaluation of Data based on the provided data.
-## JSON Parsing
+
+### JSON Parsing
 As input file for JSON parsing is of **Rich Text Format**, firstly RTF file is converted to JSON file.
+
+### Data Extraction and Model Training
+Data is extracted from Input file into Pandas DataFrame for Train and test, extracting Numerical and categorical columns, selecting columns for model training, missing value imputing method, Data Scaling, categorical columns encoding, model training, hyper parameter tuning using GridSearchCV and model evaluation.
